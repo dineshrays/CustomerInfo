@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BVT" time="45" tests="1" failures="0" errors="0">
+   <testsuite name="BVT" tests="1" failures="0" errors="0" time="45" timestamp="2019-01-24 03:41:14" hostname="Promantus Inc - G10PROLT021" id="Test Suites/Release-1.0/BVT">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Promantus Inc\\Katalon Studio\\PromantusBddDemo\\Reports\\Release-1.0\\BVT\\20190124_034107"/>
+         <property name="logFiles" value="C:\\Users\\Promantus Inc\\Katalon Studio\\PromantusBddDemo\\Reports\\Release-1.0\\BVT\\20190124_034107\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Promantus Inc - G10PROLT021"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.0.103"/>
+         <property name="sessionId" value="bb4ad1813f343d04187e99f29569de1a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_SmokeTest" classname="Test Cases/TC_SmokeTest" status="PASSED">
+         <system-out><![CDATA[2019-01-24 03:41:15 - [TEST_CASE][PASSED] - Test Cases/TC_SmokeTest: Test Cases/TC_SmokeTest
+
+2019-01-24 03:41:15 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.CucumberPAFrunner): Run with 'common.CucumberPAFrunner' was passed
+
+2019-01-24 03:41:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-24 03:41:17 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-24 03:41:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-24 03:41:30 - [MESSAGE][PASSED] - Navigate to 'http://promantusbdddemo.azurewebsites.net/Account/Login' successfully
+
+2019-01-24 03:41:30 - [MESSAGE][PASSED] - Text 'Promantus' is set on object 'Object Repository/bddDemo_Login/input_UserName_UserName'
+
+2019-01-24 03:41:30 - [MESSAGE][PASSED] - Text 'bdd' is set on object 'Object Repository/bddDemo_Login/input_Password_Password'
+
+2019-01-24 03:41:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 03:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/bddDemo_Login/input_Password_btn btn-default' is clicked on
+
+2019-01-24 03:41:34 - [MESSAGE][PASSED] - Text 'PayBill' is present on page 
+
+2019-01-24 03:41:35 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-24 03:41:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-24 03:41:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-24 03:41:42 - [MESSAGE][PASSED] - Navigate to 'http://promantusbdddemo.azurewebsites.net' successfully
+
+2019-01-24 03:41:42 - [MESSAGE][PASSED] - Text 'Promantus' is set on object 'Object Repository/bddDemo_Login/input_UserName_UserName'
+
+2019-01-24 03:41:42 - [MESSAGE][PASSED] - Text 'bdd' is set on object 'Object Repository/bddDemo_Login/input_Password_Password'
+
+2019-01-24 03:41:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 03:41:45 - [MESSAGE][PASSED] - Object: 'Object Repository/bddDemo_Login/input_Password_btn btn-default' is clicked on
+
+2019-01-24 03:41:45 - [MESSAGE][PASSED] - Text '11/01/2019' is set on object 'Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen'
+
+2019-01-24 03:41:45 - [MESSAGE][PASSED] - Text '145' is set on object 'Object Repository/bddDemo_MakePayment/input_Amount_Amount'
+
+2019-01-24 03:41:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 03:41:48 - [MESSAGE][PASSED] - Object: 'Object Repository/bddDemo_MakePayment/input_SwiftCode_btn btn-defaul' is clicked on
+
+2019-01-24 03:41:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 03:41:50 - [MESSAGE][PASSED] - Text '32728' is set on object 'Object Repository/bddDemo_EnterOTP/input_OTP_OTP'
+
+2019-01-24 03:41:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 03:41:54 - [MESSAGE][PASSED] - Object: 'Object Repository/bddDemo_EnterOTP/input_OTP_btn btn-default' is clicked on
+
+2019-01-24 03:41:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 03:41:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 03:41:59 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-24 03:41:59 - [MESSAGE][PASSED] - Run with 'common.CucumberPAFrunner' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-24 03:41:14 - [TEST_SUITE][PASSED] - BVT: Test Cases/TC_SmokeTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

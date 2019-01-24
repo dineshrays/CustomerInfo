@@ -1,0 +1,330 @@
+[
+  {
+    "line": 11,
+    "elements": [
+      {
+        "line": 26,
+        "name": "To login a valid user credentials",
+        "description": "",
+        "id": "title-of-your-feature;to-login-a-valid-user-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7675853843,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is in BDD Demo Login Page http://promantusbdddemo.azurewebsites.net/Account/Login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://promantusbdddemo.azurewebsites.net/Account/Login",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginStepDef.user_is_in_BDD_Demo_Login_Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 294451673,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters username in BDD Demo Promantus",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Promantus",
+                  "offset": 33
+                }
+              ],
+              "location": "LoginStepDef.user_enters_username_in_BDD_Demo(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 177326787,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters password  in BDD Demo bdd",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bdd",
+                  "offset": 34
+                }
+              ],
+              "location": "LoginStepDef.user_enters_password_in_BDD_Demo(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2874115988,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks on Login button",
+            "match": {
+              "location": "LoginStepDef.user_clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1444653792,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user should be able to login successfully",
+            "match": {
+              "location": "LoginStepDef.user_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "Include/features/Login.feature",
+    "tags": [
+      {
+        "name": "@FunctionalTest",
+        "type": "Tag",
+        "location": {
+          "line": 10,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 11,
+    "elements": [
+      {
+        "line": 33,
+        "name": "To make a payment with valid Payment details",
+        "description": "",
+        "id": "title-of-your-feature;to-make-a-payment-with-valid-payment-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6183008248,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is in BDD Demo Login Page http://promantusbdddemo1.azurewebsites.net",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://promantusbdddemo1.azurewebsites.net",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginStepDef.user_is_in_BDD_Demo_Login_Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 217334519,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters username in BDD Demo Promantus",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Promantus",
+                  "offset": 33
+                }
+              ],
+              "location": "LoginStepDef.user_enters_username_in_BDD_Demo(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 181770915,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters password  in BDD Demo bdd",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bdd",
+                  "offset": 34
+                }
+              ],
+              "location": "LoginStepDef.user_enters_password_in_BDD_Demo(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2869572556,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks on Login button",
+            "match": {
+              "location": "LoginStepDef.user_clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8114217,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user is redirected to paybill page",
+            "match": {
+              "location": "MakePaymentStepDef.user_is_redirected_to_paybill_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 292798246,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enters dayofpayment",
+            "match": {
+              "location": "MakePaymentStepDef.user_enters_dayofpayment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2210306981,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enters amount",
+            "match": {
+              "location": "MakePaymentStepDef.user_enters_amount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2159501185,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user enters SwiftCode",
+            "match": {
+              "location": "MakePaymentStepDef.user_enters_SwiftCode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2969687038,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user clicks on make payment",
+            "match": {
+              "location": "MakePaymentStepDef.user_clicks_on_make_payment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 498030,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user is redirected to otp page",
+            "match": {
+              "location": "MakePaymentStepDef.user_is_redirected_to_otp_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2157634425,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user enters the otp",
+            "match": {
+              "location": "MakePaymentStepDef.user_enters_the_otp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3687137475,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user clicks on submit otp",
+            "match": {
+              "location": "MakePaymentStepDef.user_clicks_on_submit_otp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2911904678,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user should see the payment successful page",
+            "match": {
+              "location": "MakePaymentStepDef.user_should_see_the_payment_successful_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "Include/features/MakePayment.feature",
+    "tags": [
+      {
+        "name": "@FunctionalTest",
+        "type": "Tag",
+        "location": {
+          "line": 10,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
