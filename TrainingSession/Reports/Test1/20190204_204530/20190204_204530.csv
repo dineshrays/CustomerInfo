@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test1,,,2019-02-04 20:45:33,2019-02-04 20:45:36,3.491s,FAILED
+,,,,,,
+Test Cases/TC_Test1,,,2019-02-04 20:45:34,2019-02-04 20:45:36,2.650s,FAILED
+runWithCucumberRunner(common.CucumberEARunner),,,2019-02-04 20:45:34,2019-02-04 20:45:36,1.955s,FAILED

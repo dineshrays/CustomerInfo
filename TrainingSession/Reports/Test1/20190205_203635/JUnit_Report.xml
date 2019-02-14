@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test1" time="65" tests="0" failures="1" errors="0">
+   <testsuite name="Test1" tests="0" failures="1" errors="0" time="65" timestamp="2019-02-05 20:36:38" hostname="Promantus Inc - G10PROLT021" id="Test Suites/Test1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Promantus Inc\\Katalon Studio\\TrainingSession\\Reports\\Test1\\20190205_203635"/>
+         <property name="logFiles" value="C:\\Users\\Promantus Inc\\Katalon Studio\\TrainingSession\\Reports\\Test1\\20190205_203635\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Promantus Inc\\Katalon Studio\\TrainingSession\\Reports\\Test1\\20190205_203635\\1549379243080.png, C:\\Users\\Promantus Inc\\Katalon Studio\\TrainingSession\\Reports\\Test1\\20190205_203635\\1549379261439.png, C:\\Users\\Promantus Inc\\Katalon Studio\\TrainingSession\\Reports\\Test1\\20190205_203635\\1549379262152.png"/>
+         <property name="hostName" value="Promantus Inc - G10PROLT021"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.0.102"/>
+         <property name="sessionId" value="2ec3fcc0f99f447c14fba7b0e6253eb5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Test1" classname="Test Cases/TC_Test1" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_Test1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:
+ [Unable to set text 'Promantus' of object 'Object Repository/trainingSession_Login/input_UserName_UserName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/trainingSession_Login/input_UserName_UserName' located by 'By.xpath: //input[@id='UserName']' not found), Unable to verify image present (Root cause: com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Promantus Inc\Katalon Studio\TrainingSession\../../Desktop/logo.png' is NOT present)]]
+Possible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_Test1.run(TC_Test1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549379195420.run(TempTestSuite1549379195420.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-05 20:36:39 - [TEST_CASE][FAILED] - Test Cases/TC_Test1: Test Cases/TC_Test1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:
+ [Unable to set text 'Promantus' of object 'Object Repository/trainingSession_Login/input_UserName_UserName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/trainingSession_Login/input_UserName_UserName' located by 'By.xpath: //input[@id='UserName']' not found), Unable to verify image present (Root cause: com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Promantus Inc\Katalon Studio\TrainingSession\../../Desktop/logo.png' is NOT present)]]
+Possible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_Test1.run(TC_Test1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549379195420.run(TempTestSuite1549379195420.groovy:36)
+
+
+2019-02-05 20:36:39 - [TEST_STEP][FAILED] - runWithCucumberRunner(common.CucumberEARunner): runWithCucumberRunner(common.CucumberEARunner) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:
+ [Unable to set text 'Promantus' of object 'Object Repository/trainingSession_Login/input_UserName_UserName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/trainingSession_Login/input_UserName_UserName' located by 'By.xpath: //input[@id='UserName']' not found), Unable to verify image present (Root cause: com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Promantus Inc\Katalon Studio\TrainingSession\../../Desktop/logo.png' is NOT present)]]
+Possible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_Test1.run(TC_Test1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549379195420.run(TempTestSuite1549379195420.groovy:36)
+
+
+2019-02-05 20:36:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-05 20:36:43 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-05 20:36:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-05 20:36:51 - [MESSAGE][PASSED] - Navigate to 'http://localhost:60497' successfully
+
+2019-02-05 20:37:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='UserName']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-02-05 20:37:23 - [MESSAGE][FAILED] - Unable to set text 'Promantus' of object 'Object Repository/trainingSession_Login/input_UserName_UserName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/trainingSession_Login/input_UserName_UserName' located by 'By.xpath: //input[@id='UserName']' not found)
+[[ATTACHMENT|C:\\Users\\Promantus Inc\\Katalon Studio\\TrainingSession\\Reports\\Test1\\20190205_203635\\1549379243080.png]]
+
+2019-02-05 20:37:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-05 20:37:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-05 20:37:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-05 20:37:36 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2019-02-05 20:37:36 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/OragneHRM/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2019-02-05 20:37:37 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/OragneHRM/Page_OrangeHRM/input_Username_txtPassword'
+
+2019-02-05 20:37:39 - [MESSAGE][PASSED] - Object: 'Object Repository/OragneHRM/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2019-02-05 20:37:42 - [MESSAGE][FAILED] - Image: 'C:\Users\Promantus Inc\Katalon Studio\TrainingSession\../../Desktop/logo.png' is NOT present
+[[ATTACHMENT|C:\\Users\\Promantus Inc\\Katalon Studio\\TrainingSession\\Reports\\Test1\\20190205_203635\\1549379261439.png]]
+
+2019-02-05 20:37:42 - [MESSAGE][FAILED] - Unable to verify image present (Root cause: com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Promantus Inc\Katalon Studio\TrainingSession\../../Desktop/logo.png' is NOT present)
+[[ATTACHMENT|C:\\Users\\Promantus Inc\\Katalon Studio\\TrainingSession\\Reports\\Test1\\20190205_203635\\1549379262152.png]]
+
+2019-02-05 20:37:42 - [MESSAGE][FAILED] - Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:
+ [Unable to set text 'Promantus' of object 'Object Repository/trainingSession_Login/input_UserName_UserName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/trainingSession_Login/input_UserName_UserName' located by 'By.xpath: //input[@id='UserName']' not found), Unable to verify image present (Root cause: com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Promantus Inc\Katalon Studio\TrainingSession\../../Desktop/logo.png' is NOT present)]]
+Possible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))
+
+2019-02-05 20:37:42 - [MESSAGE][FAILED] - runWithCucumberRunner(common.CucumberEARunner) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:
+ [Unable to set text 'Promantus' of object 'Object Repository/trainingSession_Login/input_UserName_UserName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/trainingSession_Login/input_UserName_UserName' located by 'By.xpath: //input[@id='UserName']' not found), Unable to verify image present (Root cause: com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Promantus Inc\Katalon Studio\TrainingSession\../../Desktop/logo.png' is NOT present)]]
+Possible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_Test1.run(TC_Test1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549379195420.run(TempTestSuite1549379195420.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-05 20:36:39 - [TEST_CASE][FAILED] - Test Cases/TC_Test1: Test Cases/TC_Test1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:
+ [Unable to set text 'Promantus' of object 'Object Repository/trainingSession_Login/input_UserName_UserName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/trainingSession_Login/input_UserName_UserName' located by 'By.xpath: //input[@id='UserName']' not found), Unable to verify image present (Root cause: com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Promantus Inc\Katalon Studio\TrainingSession\../../Desktop/logo.png' is NOT present)]]
+Possible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_Test1.run(TC_Test1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549379195420.run(TempTestSuite1549379195420.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-05 20:36:38 - [TEST_SUITE][FAILED] - Test1: Test Cases/TC_Test1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:
+ [Unable to set text 'Promantus' of object 'Object Repository/trainingSession_Login/input_UserName_UserName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/trainingSession_Login/input_UserName_UserName' located by 'By.xpath: //input[@id='UserName']' not found), Unable to verify image present (Root cause: com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Promantus Inc\Katalon Studio\TrainingSession\../../Desktop/logo.png' is NOT present)]]
+Possible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_Test1.run(TC_Test1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549379195420.run(TempTestSuite1549379195420.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-02-05 20:36:38 - [TEST_SUITE][FAILED] - Test1: Test Cases/TC_Test1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:
+ [Unable to set text 'Promantus' of object 'Object Repository/trainingSession_Login/input_UserName_UserName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/trainingSession_Login/input_UserName_UserName' located by 'By.xpath: //input[@id='UserName']' not found), Unable to verify image present (Root cause: com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Promantus Inc\Katalon Studio\TrainingSession\../../Desktop/logo.png' is NOT present)]]
+Possible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_Test1.run(TC_Test1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549379195420.run(TempTestSuite1549379195420.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

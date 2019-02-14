@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test1,Chrome 71.0.3578.98,,2019-02-04 21:27:07,2019-02-04 21:27:24,16.665s,PASSED
+,,,,,,
+Test Cases/TC_Test1,Chrome 71.0.3578.98,,2019-02-04 21:27:07,2019-02-04 21:27:24,16.322s,PASSED
+"runFeatureFolder(""Include/features"")",Chrome 71.0.3578.98,,2019-02-04 21:27:08,2019-02-04 21:27:24,15.875s,PASSED

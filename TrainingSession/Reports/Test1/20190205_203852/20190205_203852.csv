@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test1,Chrome 71.0.3578.98,,2019-02-05 20:38:56,2019-02-05 20:39:27,30.676s,PASSED
+,,,,,,
+Test Cases/TC_Test1,Chrome 71.0.3578.98,,2019-02-05 20:38:57,2019-02-05 20:39:27,29.843s,PASSED
+runWithCucumberRunner(common.CucumberEARunner),Chrome 71.0.3578.98,,2019-02-05 20:38:58,2019-02-05 20:39:27,29.094s,PASSED

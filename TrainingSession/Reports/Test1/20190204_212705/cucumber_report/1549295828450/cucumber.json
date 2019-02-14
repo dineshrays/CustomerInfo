@@ -1,0 +1,100 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 26,
+        "name": "Login the user",
+        "description": "",
+        "id": "title-of-your-feature;login-the-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8402980926,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Navigate to Login page",
+            "match": {
+              "location": "LoginStepDef.Navigate_to_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 496487741,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User enters username",
+            "match": {
+              "location": "LoginStepDef.user_enters_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 245666313,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User enters password",
+            "match": {
+              "location": "LoginStepDef.user_enters_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 336911795,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User click on login",
+            "match": {
+              "location": "LoginStepDef.user_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3956913093,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User has to be logged in",
+            "match": {
+              "location": "LoginStepDef.user_has_to_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/Promantus Inc/Katalon Studio/TrainingSession/Include/features/Login.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
