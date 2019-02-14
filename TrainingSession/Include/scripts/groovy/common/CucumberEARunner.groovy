@@ -25,11 +25,22 @@ import cucumber.api.junit.Cucumber
 //@CucumberOptions(features="C:\\Users\\Promantus Inc\\Katalon Studio\\TrainingSession\\Include\\features", glue="",
 @RunWith(Cucumber.class)
 //@CucumberOptions(features="C:Program Files (x86)\\Jenkins\\workspace\\AutomationDemoCI\\TrainingSession\\Include\\features", glue="",
-@CucumberOptions(features="C:\\Users\\Promantus Inc\\Katalon Studio\\TrainingSession\\Include\\features", glue="",
+@CucumberOptions(
+	features="C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationTest\\TrainingSession\\Include\\features", glue="",
 plugin = ["pretty",
-	"junit:C:\\Users\\Promantus Inc\\Katalon Studio\\TrainingSession\\MyReports\\cucumber.xml",
-	"html:C:\\Users\\Promantus Inc\\Katalon Studio\\TrainingSession\\MyReports",
-	"json:C:\\Users\\Promantus Inc\\Katalon Studio\\TrainingSession\\MyReports\\cucumber.json"])
+	"junit:C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationTest\\TrainingSession\\MyReports\\cucumber.xml",
+	"html:C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationTest\\TrainingSession\\MyReports",
+	"json:C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationTest\\TrainingSession\\MyReports\\cucumber.json"])
+
+
+
 public class CucumberEARunner {
 
 }
+
+
+/*features="C:\\Users\\Promantus Inc\\Katalon Studio\\TrainingSession\\Include\\features", glue="",
+plugin = ["pretty",
+	"junit:C:\\Users\\Promantus Inc\\Katalon Studio\\TrainingSession\\MyReports\\cucumber.xml",
+	"html:C:\\Users\\Promantus Inc\\Katalon Studio\\TrainingSession\\MyReports",
+	"json:C:\\Users\\Promantus Inc\\Katalon Studio\\TrainingSession\\MyReports\\cucumber.json"]*/
